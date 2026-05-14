@@ -38,7 +38,9 @@
         </div>
         
         <div class="mt-12">
-            <button class="bg-resort-green text-white px-10 py-3 rounded-sm font-bold hover:bg-[#0a2342] transition shadow-md">Berita Lainnya</button>
+            <a href="{{ route('berita') }}" class="inline-block bg-[#0f172a] text-white px-12 py-4 rounded-lg font-semibold hover:bg-resort-green transition-colors duration-300 shadow-lg tracking-wide">
+                LIHAT SEMUA BERITA
+            </a>
         </div>
     </div>
 </section>

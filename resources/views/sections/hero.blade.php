@@ -4,8 +4,8 @@
         <div class="absolute inset-0 bg-black/50"></div> 
         
         <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4 pb-64 md:pb-40">
-            <h2 class="text-4xl md:text-7xl font-serif font-black leading-tight uppercase italic tracking-tighter">
-                Green Resort <span class="text-resort-gold not-italic">Palembang</span>
+            <h2 class="text-4xl md:text-7xl font-serif font-black leading-tight uppercase not-italic tracking-tighter">
+                Green Resort <span class="text-[60px] text-resort-gold font-bold not-italic"><br>Palembang</span>
             </h2>
             <p class="mt-4 text-sm md:text-xl tracking-[0.2em] uppercase font-light">Exclusive Living Experience</p>
         </div>
@@ -23,7 +23,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
                     
                     <div class="relative">
-                        <input type="text" name="nama" id="nama" placeholder=" " required
+                        <input type="text" name="nama" id="nama" placeholder="nama" required
                             class="block px-4 py-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-resort-gold peer">
                         <label for="nama" 
                             class="absolute text-xs md:text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-resort-gold peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-3 font-bold uppercase tracking-wider">
@@ -32,7 +32,7 @@
                     </div>
 
                     <div class="relative">
-                        <input type="email" name="email" id="email" placeholder=" " required
+                        <input type="email" name="email" id="email" placeholder="email" required
                             class="block px-4 py-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-resort-gold peer">
                         <label for="email" 
                             class="absolute text-xs md:text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-resort-gold peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-3 font-bold uppercase tracking-wider">
@@ -41,7 +41,7 @@
                     </div>
 
                     <div class="relative">
-                        <input type="tel" name="whatsapp" id="whatsapp" placeholder=" " required
+                        <input type="tel" name="whatsapp" id="whatsapp" placeholder="No. WA" required
                             class="block px-4 py-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-resort-gold peer">
                         <label for="whatsapp" 
                             class="absolute text-xs md:text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-resort-gold peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-3 font-bold uppercase tracking-wider">
@@ -50,11 +50,11 @@
                     </div>
 
                     <div class="relative">
-                        <input type="text" name="kota" id="kota" placeholder="Domisili " required
+                        <input type="text" name="kota" id="kota" placeholder="alamat" required
                             class="block px-4 py-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-resort-gold peer">
                         <label for="kota" 
                             class="absolute text-xs md:text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-resort-gold peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-3 font-bold uppercase tracking-wider">
-                            Domisili
+                            Alamat
                         </label>
                     </div>
 

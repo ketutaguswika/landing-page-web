@@ -40,7 +40,6 @@
                 </p>
             </div>
 
-            <!-- Tambahan Point Keunggulan agar halaman About tidak kosong -->
             <div class="grid grid-cols-2 gap-6 pt-6">
                 <div>
                     <h4 class="font-serif font-bold text-gray-900 text-lg">Visi Kami</h4>
@@ -53,17 +52,12 @@
             </div>
         </div>
 
-        <!-- Image Gallery Style -->
         <div class="relative order-1 lg:order-2">
             <div class="absolute -top-6 -left-6 w-full h-full border-2 border-resort-gold z-0 hidden md:block"></div>
             <div class="relative z-10 overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.15)]">
                 <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750" alt="About Us" class="w-full h-[500px] object-cover hover:scale-110 transition-transform duration-700">
             </div>
-            <!-- Floating Badge -->
-            <div class="absolute -bottom-6 -right-6 bg-resort-green p-8 text-white z-20 hidden md:block">
-                <span class="block text-4xl font-serif font-black italic">10+</span>
-                <span class="text-[10px] uppercase tracking-widest font-bold">Tahun Pengalaman</span>
-            </div>
+            
         </div>
     </div>
 </section>
